@@ -1,6 +1,6 @@
 # Curso de JavaScript con JonMircha
 
-![JS is not Java!](img/Js-is-not-java.png)
+![JS is not Java!](img/JS%20is%20not%20JAVA.png)
 
 ## Enlace del curso de Git
 

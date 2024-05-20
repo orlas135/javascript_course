@@ -23,6 +23,7 @@ const contarPalabra = (cadena = "", palabra) => {
       }
     }
     return `La palabra "${palabra}" se repite en la cadena "${cadena}" un total de ${veces} veces.`;
+    cadena.index
   }
 };
 
@@ -46,3 +47,10 @@ const palindrome = (cadena = "") => {
 
 console.log(palindrome(`alexander`))
 
+const deletePattern = (phrase = '', pattern = "") => {
+  const newString = phrase.replaceAll(pattern, '')
+
+  console.log(newString)
+}
+
+deletePattern('AlexanderAlex', 'Alex')
